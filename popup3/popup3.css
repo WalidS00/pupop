@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.popup-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(132, 86, 86, 0.658);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.popup{
+    background-color: #ffffff;
+    padding: 20px 30px;
+    width: 50%;
+    border-radius: 15px;  
+    box-shadow: 0 2px 15px 0 black;
+}
+.popup:hover{
+    text-shadow: 0 1px 1px black;
+    box-shadow: 0 2px 5px black;
+}
+.popup button{
+    display: block;
+    margin:  0 0 15px auto;
+    background-color: transparent;
+    font-size: 20px;
+    color: #3d3d3d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.popup > h2{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.popup > p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.popup-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(179, 16, 16);
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    transition: .2s all ease-in;
+}
+.popup-btn:hover{
+    background-color: rgb(179, 18, 18);
+    color: #fff;
+    text-shadow: 0 2px 5px black;
+    box-shadow: 0 2px 5px black;
+}
